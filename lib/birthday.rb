@@ -1,5 +1,6 @@
 require 'pry'
 
+
 # birthday_kids = {
 #   "Timmy" => 9,
 #   "Sarah" => 6,
@@ -7,7 +8,6 @@ require 'pry'
 # }
 
 def happy_birthday(birthday_kids)
-  binding.pry
   birthday_kids.each do |kids_name, age|
      puts "Happy Birthday #{kids_name}! You are now #{age} years old!"
    end
